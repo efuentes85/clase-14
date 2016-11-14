@@ -1,0 +1,158 @@
+*{
+
+	margin:0;
+	padding:0;
+}
+
+html, body, .row-section{
+   width: 100%;
+   height: 100%;
+   font-family: 'Gochi Hand', cursive;
+   
+}
+
+body{
+	position: relative;
+	overflow-y: scroll;
+}
+
+
+header {
+	background-image: url("img/fondo.jpg");
+/*Con estos atributos se centra la imagen del background, y se alinea el texto dentro del header*/
+	background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+	height: 100%;
+	padding-top:15%;
+	display: block;
+}
+
+.navbar{
+		background-color: #29292B;
+}
+
+.navbar-brand {
+	
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+  
+}
+
+.logo-color{
+	color:blue;
+}
+
+.logo-style{
+	 font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+}
+
+.intro-text{
+	font-family: 'Crete Round', serif;
+}
+
+.intro-lead-in {
+	font-size: 30px;
+	color: black;
+}
+
+.intro-heading {
+	font-size: 70px;
+	color: black;
+}
+
+.btn-xl {
+	margin-top: 30px;
+	width: 250px;
+	height: 80px;
+	font-size: 40px;
+	
+}
+
+}
+
+.carousel-inner{
+	height: 100%;
+}
+
+.item{
+	height: 100%;
+}
+
+.carousel-control{
+	height: 100%;
+}
+
+
+.carousel-text{
+	font-size: 30px;
+}
+
+.services {
+	padding-top:2%;
+	display: block;
+	height: auto;
+	background-color: #ccd;
+	min-height: 75%;
+
+
+}
+
+.portfolio{
+
+	display: block;
+	padding-top: 2%;
+	height: auto;
+	background-color: #ddd;
+	min-height: 75%;
+
+}
+
+.team{
+
+	display: block;
+	padding-top: 2%;
+	height: auto;
+	background-color: #ccd;
+	min-height: 75%;
+}
+
+.carousel{
+
+	display: block;
+	padding-top: 2%;
+	height: auto;
+	background-color: #a23;
+	min-height: 75%;
+	width: 100%;
+
+}
+
+
+.footer {
+   	display: block;
+	padding-top: 2%;
+	height: auto;
+	background-color: #223;
+	min-height: 25%;
+	width: 100%;
+}
+
+.address{
+	font-family: tahoma;
+	color:white;
+}
+
+.fa-facebook-official
+{
+	color:blue;
+}
+
+.fa-twitter {
+	color:steelblue;
+}
+
+.fa-github{
+	color:black;
+}
